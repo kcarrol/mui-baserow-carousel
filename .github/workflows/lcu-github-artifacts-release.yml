@@ -1,17 +1,17 @@
-name: GuerrillaGorilla/mui-auto-dark-mode-carousel
+name: kcarrol/mui-baserow-carousel
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 
 permissions: write-all
 
 env:
   CI: false
-  Branches: main
-  MainBranch: main
+  Branches: master
+  MainBranch: master
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm i
   BuildCommand: npm run build
